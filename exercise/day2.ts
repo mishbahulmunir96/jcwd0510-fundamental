@@ -106,3 +106,5 @@ for (let i = 1; i <= nomor; i++) {
   n1 = n2;
   n2 = nextTerm;
 }
+
+console.log(n1);
