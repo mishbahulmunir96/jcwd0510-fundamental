@@ -76,7 +76,7 @@ for (let i = 1; i <= angka; i++) {
   sum += i;
 }
 
-console.log();
+console.log(sum);
 
 // soal 4
 // ● Write a code to find factorial of a number
