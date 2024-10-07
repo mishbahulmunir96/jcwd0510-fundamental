@@ -244,8 +244,8 @@ console.log(months);
 // rumus: slice(starttIDx, endIdx)
 
 const buah: string[] = ["Aplle", "Banana", "Orange", "mango", "grape", "lemon"];
-console.log(buah.slice(1, 4));
-console.log(buah.slice(-4, -1));
+console.log(buah.slice(1, 4)); //dari depan
+console.log(buah.slice(-4, -1)); //jika dari belakang, nomor index diberi tanda minus, jadi index terakhir adalah -0
 
 // indexOf -> mencari index dair value yang kita search
 // kalo tidak ditemukan akan mereturn -1
@@ -276,7 +276,7 @@ console.log(buah3);
 const point: number[] = [6, 1, 4, 5, 6, 7, 2, 3, 8, 16, 20, 9];
 point.sort();
 console.log(point);
-// memiliki kelemahan jika terdapat angka lebih dari satu digit
+// memiliki kelemahan jika terdapat angka lebih dari satu digit, karna yang diurutkan sesuai digit pertama
 
 // solusinya
 // sort number dgn compare function
