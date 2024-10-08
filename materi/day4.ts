@@ -48,11 +48,6 @@ const students: Student[] = [
 ];
 
 // for of
-const fruits: string[] = ["Aplle", "Banana", "Orange"];
-
-for (const fruit of fruits) {
-  console.log(fruit);
-}
 
 // Exercise for of
 // hitung semua bilangan dalam Array menggunakan for of
