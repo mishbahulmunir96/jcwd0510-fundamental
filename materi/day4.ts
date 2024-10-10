@@ -355,3 +355,6 @@ const buah6: string[] = [
 ];
 
 console.log(buah6.includes("mango"));
+
+
+
